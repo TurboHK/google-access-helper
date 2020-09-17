@@ -1,0 +1,447 @@
+{
+   "global_direction": {
+      "message": "ltr"
+   },
+   "global_float": {
+      "message": "right"
+   },
+   "global_fontFamily": {
+      "message": "auto"
+   },
+   "global_textAlign": {
+      "message": "left"
+   },
+   "manifest_appDescription": {
+      "message": "輕鬆快捷地管理和切換多個代理設置。基于 \"Proxy Switchy!\" 和 \"SwitchyPlus\" 開發。"
+   },
+   "manifest_appName": {
+      "message": "Google訪問助手"
+   },
+   "manifest_iconTitle": {
+      "message": "[載入中……]"
+   },
+   "message_SwitchRulesDisabled": {
+      "message": "您必須先啟動自動切換規則!"
+   },
+   "message_apply2All": {
+      "message": "您確定將這個情景模式應用到所有規則嗎？\n\n選中的情景模式: ($1)"
+   },
+   "message_cannotReadOptionsBackup": {
+      "message": "讀取備份文件失敗!"
+   },
+   "message_cannotRestoreOptionsBackup": {
+      "message": "讀取備份文件失敗\r\n!\n\n備份文件可能已損壞。"
+   },
+   "message_cannotSaveFile": {
+      "message": "保存備份文件失敗!"
+   },
+   "message_deleteSelectedProfile": {
+      "message": "確認刪除選中的情景模式嗎？\n\n選中的情景模式: ($1)"
+   },
+   "message_deleteSelectedRule": {
+      "message": "確認刪除選中的規則嗎？\n\n選中規則: ($1)"
+   },
+   "message_errorDownloadingRuleList": {
+      "message": "更新在線列表失敗！"
+   },
+   "message_firstTimeWelcome": {
+      "message": "歡迎使用!\u003Cbr>\r\n請設置下面相關選項，然後保存即可。若設置出現問題，您可以訪問 http://www.ggfwzs.com 查看相關說明。"
+   },
+   "message_optionsSaved": {
+      "message": "設置已保存。"
+   },
+   "message_profileDeleted": {
+      "message": "情景模式已刪除。"
+   },
+   "message_restoreOptionsBackup": {
+      "message": "確認恢復恢復備份嗎？\n\n現有的Google訪問助手配置將會被覆蓋。"
+   },
+   "message_ruleDeleted": {
+      "message": "規則已刪除。"
+   },
+   "message_ruleListUpdated": {
+      "message": "更新在線列表成功！"
+   },
+   "message_rulesFirstTimeWelcome": {
+      "message": "如何使用，請查看Google訪問助手項目主頁（簡體中文）：http://www.ggfwzs.com"
+   },
+   "message_saveChangedValues": {
+      "message": "儲存更改?"
+   },
+   "message_saveOptions": {
+      "message": "現在保存您的設置嗎？"
+   },
+   "message_selectBackupFile": {
+      "message": "選擇備份文件的路徑。"
+   },
+   "message_successRestoreOptionsBackup": {
+      "message": "設置導入成功。"
+   },
+   "options_12Hours": {
+      "message": "12 小時"
+   },
+   "options_15Minutes": {
+      "message": "15 分鐘"
+   },
+   "options_1Hour": {
+      "message": "1 小時"
+   },
+   "options_30Minutes": {
+      "message": "30 分鐘"
+   },
+   "options_3Hours": {
+      "message": "3 小時"
+   },
+   "options_45Minutes": {
+      "message": "45 分鐘"
+   },
+   "options_6Hours": {
+      "message": "6 小時"
+   },
+   "options_autoConfig": {
+      "message": "自動配置"
+   },
+   "options_autoConfigUrl": {
+      "message": "自動配置的URL"
+   },
+   "options_autoProxyCompatible": {
+      "message": "AutoProxy 相容列表"
+   },
+   "options_autoProxyCompatible_help": {
+      "message": "如果是AutoProxy列表規則(如gfwlist),請選中此選項。"
+   },
+   "options_clickToEdit": {
+      "message": "點擊以編輯"
+   },
+   "options_close": {
+      "message": "關閉"
+   },
+   "options_confirmDeletion": {
+      "message": "刪除情景模式或規則時需要確認"
+   },
+   "options_confirmDeletion_help": {
+      "message": "如果選中此選項，在您要刪除情景模式或規則時，Google訪問助手 會詢問您是否確定。"
+   },
+   "options_cycledProfiles": {
+      "message": "循環切換以下情景模式: "
+   },
+   "options_defaultRule": {
+      "message": "默認規則"
+   },
+   "options_defaultRuleUrlPattern": {
+      "message": ""
+   },
+   "options_defaultRule_help": {
+      "message": "\u003Cp>如果沒有其他規則匹配,此規則將被應用\u003C/p>\r\n\u003Cp>\u003Cstrong>注意:\u003C/strong> 此規則不能被刪除。\u003C/p>"
+   },
+   "options_deleteProfile": {
+      "message": "刪除情景模式"
+   },
+   "options_deleteRule": {
+      "message": "删除規則"
+   },
+   "options_everyday": {
+      "message": "每天"
+   },
+   "options_exportPacFile": {
+      "message": "導出PAC文件"
+   },
+   "options_exportPacFile_help": {
+      "message": " 導出PAC文件,以便在其它瀏覽器使用。 "
+   },
+   "options_exportRuleList": {
+      "message": "導出規則列表"
+   },
+   "options_exportRuleList_help": {
+      "message": " 導出規則文件，以便共享。 "
+   },
+   "options_ftpProxy": {
+      "message": "FTP Proxy"
+   },
+   "options_headerTitle": {
+      "message": "Google訪問助手 選項"
+   },
+   "options_httpProxy": {
+      "message": "HTTP Proxy"
+   },
+   "options_httpsProxy": {
+      "message": "HTTPS Proxy"
+   },
+   "options_importPAC": {
+      "message": "導入 PAC 文件"
+   },
+   "options_lastSelectedProfile": {
+      "message": "(上次使用的情景模式)"
+   },
+   "options_lastSuccessfulUpdate": {
+      "message": "上次成功更新: "
+   },
+   "options_makeBackup": {
+      "message": "生成備份文件"
+   },
+   "options_makeBackup_help": {
+      "message": " 備份您的所有設置。 "
+   },
+   "options_manualConfig": {
+      "message": "手動配置"
+   },
+   "options_miscOptions": {
+      "message": "其他選項"
+   },
+   "options_monitorProxyChanges": {
+      "message": "監控Proxy變化"
+   },
+   "options_monitorProxyChanges_help": {
+      "message": "當Proxy設置變化時， Google訪問助手 會調整圖標來反映變化。"
+   },
+   "options_moreInfo": {
+      "message": "更多訊息"
+   },
+   "options_newProfile": {
+      "message": "新建情景模式"
+   },
+   "options_newRule": {
+      "message": "新建規則"
+   },
+   "options_noProxyFor": {
+      "message": "不使用Proxy的地址:"
+   },
+   "options_noProxyFor_help": {
+      "message": "使用分號 ( ; ) 分隔。"
+   },
+   "options_notCycledProfiles": {
+      "message": "不循環切換的情景模式 (拖動到上面的框中啟用切換):"
+   },
+   "options_patternType": {
+      "message": "模式匹配"
+   },
+   "options_patternTypeRegExp": {
+      "message": "正則表達式"
+   },
+   "options_patternTypeWildcard": {
+      "message": "通配符"
+   },
+   "options_patternType_help": {
+      "message": "\u003Cp>該類型的匹配模式.\u003C/p>\u003Chr />\r\n\u003Ctable>\r\n\t\u003Ctr>\r\n\t\t\u003Ctd>\u003Cem>通配符\u003C/em>\u003C/td>\r\n\t\t\u003Ctd>使用*來匹配任意數量的字符。\u003C/td>\r\n\t\u003C/tr>\r\n\t\u003Ctr>\r\n\t\t\u003Ctd>\u003Cem>正則表達式\u003C/em>\u003C/td>\r\n\t\t\u003Ctd>使用正則表達式匹配 URL。\u003C/td>\r\n\t\u003C/tr>\r\n\u003C/table>"
+   },
+   "options_profileColor": {
+      "message": "情景模式顔色"
+   },
+   "options_profileDetails": {
+      "message": "詳細配置"
+   },
+   "options_profileName": {
+      "message": "情景模式名稱"
+   },
+   "options_proxyPort": {
+      "message": "連接埠"
+   },
+   "options_proxyProfile": {
+      "message": "情景模式"
+   },
+   "options_proxyProfile_help": {
+      "message": "当規則匹配時，使用此情景模式"
+   },
+   "options_proxyProfiles": {
+      "message": "所有情景模式"
+   },
+   "options_quickSwitch": {
+      "message": "快速切換"
+   },
+   "options_quickSwitch_cycle_help": {
+      "message": "當您點擊工具欄圖標時, Google訪問助手將按如下順序切換代理配置。"
+   },
+   "options_quickSwitch_help": {
+      "message": "\u003Cp>可以讓您一鍵切換代理配置 \n(點擊SwitchySharp圖標即可)。\u003C/p>\u003Chr />\n\u003Cp>\u003Cstrong>注意:\u003C/strong> 啟用此特性後，您無法通過單擊 Google訪問助手 圖標彈出配置菜單。你需要右擊谷歌訪問助手圖標並選擇\"選項\"來進入配置頁面。\u003C/p>"
+   },
+   "options_reapplyLastProfile_help": {
+      "message": "如果這個選項被選中 谷歌訪問助手 啟動時將應用用戶最後選擇的情景模式"
+   },
+   "options_refreshTab": {
+      "message": "當更改情景模式時刷新當前標籤"
+   },
+   "options_refreshTab_help": {
+      "message": "當在彈出菜單中或快速切換中更改情景模式時，刷新當前標籤頁。"
+   },
+   "options_reloadEvery": {
+      "message": "自動更新間隔"
+   },
+   "options_reloadEvery_help": {
+      "message": "自動更新規則列表的頻率。"
+   },
+   "options_resetOptions": {
+      "message": "重置選項"
+   },
+   "options_restoreBackup": {
+      "message": "在線恢復備份"
+   },
+   "options_restoreBackup_help": {
+      "message": "備份文件地址 (e.g. 'http://iewb.net/switchy.bak')"
+   },
+   "options_restoreLocal": {
+      "message": "從文件恢復"
+   },
+   "options_restoreLocal_help": {
+      "message": "從本地備份文件供恢復Google訪問助手配置。"
+   },
+   "options_revertProxyChanges": {
+      "message": "撤銷其他擴展對代理的更改。"
+   },
+   "options_revertProxyChanges_help": {
+      "message": "恢復被其他應用程式更改的代理設置。"
+   },
+   "options_ruleList": {
+      "message": "在線規則列表"
+},
+   "options_ruleListProxyProfile_help": {
+      "message": "當在線規則列表中的任何規則匹配時，使用此情景模式。"
+   },
+   "options_ruleListUrl": {
+      "message": "規則列表URL"
+   },
+   "options_ruleListUrl_help": {
+      "message": "規則列表的地址(不能使用本地文件)。"
+   },
+   "options_ruleList_help": {
+      "message": "導入在線規則列表。"
+   },
+   "options_ruleName": {
+      "message": "規則名稱"
+   },
+   "options_save": {
+      "message": "保存"
+   },
+   "options_socks4": {
+      "message": "SOCKS v4"
+   },
+   "options_socks5": {
+      "message": "SOCKS v5"
+   },
+   "options_socksHost": {
+      "message": "SOCKS 代理"
+},
+   "options_startupProfile": {
+      "message": "啟動情景模式："
+   },
+   "options_startupProfile_help": {
+      "message": "擴展啟動時應用的情景模式。"
+   },
+   "options_switchRules": {
+      "message": "切換規則"
+   },
+   "options_switchRulesEnable": {
+      "message": "啟用切換規則"
+   },
+   "options_switchRulesEnable_help": {
+      "message": "\u003Cp>切換規則指定哪個代理應該用於每一個URL。\u003C/p>\u003Chr />\r\n\u003Cp>這個選項被激活時,你可以在彈出菜單看到兩個項目：\u003C/p>\r\n\u003Ctable>\r\n\t\u003Ctr>\r\n\t\t\u003Ctd>\u003Cem>自動模式\u003C/em>\u003C/td>\r\n\t\t\u003Ctd>點擊這個項目將啟動開關的規則。 \u003C/td>\r\n\t\u003C/tr>\r\n\t\u003Ctr>\r\n\t\t\u003Ctd>\u003Cem>新規則\u003C/em>\u003C/td >\r\n\t\t\u003Ctd>為當前的網站快速增加一個新的切換規則。\u003C/td>\r\n\t\u003C/tr>\r\n\u003C/table>"},
+   "options_tabGeneral": {
+      "message": "通用設置"
+   },
+   "options_tabImportExport": {
+      "message": "導入/導出"
+   },
+   "options_tabNetwork": {
+      "message": "網絡"
+   },
+   "options_tabProxyProfiles": {
+      "message": "情景模式"
+   },
+   "options_tabSwitchRules": {
+      "message": "切換規則"
+   },
+   "options_untitledProfile": {
+      "message": "[未命名]"
+   },
+   "options_updateListNow": {
+      "message": "立即更新列表"
+   },
+   "options_urlPattern": {
+      "message": "URL 模式"
+   },
+   "options_urlPattern_help": {
+      "message": "\u003Cp>該網頁的URL模式。\u003C/p>\u003Chr />\r\n\u003Ctable>\r\n\t\u003Ctr>\r\n\t\t\u003Ctd colspan='2'>\u003Cstrong>配置参考\u003C/strong>\u003C/td>\r\n\t\u003C/tr>\r\n\t\u003Ctr>\r\n\t\t\u003Ctd>\u003Cem>星號 (*) \u003C/em>\u003C/td>\r\n\t\t\u003Ctd>代表零個或多个字符。\u003C/td>\r\n\t\u003C/tr>\r\n\t\u003Ctr>\r\n\t\t\u003Ctd>\u003Cem>問號 (?) \u003C/em>\u003C/td>\r\n\t\t\u003Ctd>代表一個字符。\u003C/td>\r\n\t\u003C/tr>\r\n\t\u003Ctr>\r\n\t\t\u003Ctd colspan='2'>\u003Cbr />\u003Cstrong>范例\u003C/strong>\u003C/td>\r\n\t\u003C/tr>\r\n\t\u003Ctr>\r\n\t\t\u003Ctd>\u003Cem>*://www.google.com/* \u003C/em>\u003C/td>\r\n\t\t\u003Ctd>匹配所有網址(HTTP和HTTPS)\u003C/td>\r\n\t\u003C/tr>\r\n\t\u003Ctr>\r\n\t\t\u003Ctd>\u003Cem>https://*.google.com/foo*bar \u003C/em>\u003C/td>\r\n\t\t\u003Ctd>https配置路徑中的任何子域名與子目錄。\u003C/td>\r\n\t\u003C/tr>\r\n\t\u003Ctr>\r\n\t\t\u003Ctd>\u003Cem>http://example.org/foo/bar.html \u003C/em>\u003C/td>\r\n\t\t\u003Ctd>精確匹配指定的URL。\u003C/td>\r\n\t\u003C/tr>\r\n\u003C/table>"
+   },
+   "options_useSameProxy": {
+      "message": "對所有協議均使用相同的Proxy伺服器"
+   },
+   "options_vpnDialupProxy": {
+      "message": "VPN/撥號網路的代理"},
+   "popup_aboutSwitchy": {
+      "message": "關於 Google訪問助手"
+   },
+   "popup_add": {
+      "message": "添加"
+   },
+   "popup_autoSwitchMode": {
+      "message": "自動切換模式"
+   },
+   "popup_autoSwitchMode_help": {
+      "message": "為每個網站自動選擇合適的情景模式。"
+   },
+   "popup_basedOn": {
+      "message": "免費訪問 Chrome線上應用程式商店，Google搜索，Gmail 等"
+   },
+   "popup_cancel": {
+      "message": "取消"
+   },
+   "popup_chromeExtensionGallery": {
+      "message": "英文版本"
+   },
+   "popup_copyright": {
+      "message": "Copyright &copy; 2014 ggfwzs.com."
+},
+   "popup_developedBy": {
+      "message": "開發人員"
+   },
+   "popup_duplicateRules": {
+      "message": "* 已經存在模式相同的規則了。"
+   },
+   "popup_newRule": {
+      "message": "新建規則"
+   },
+   "popup_newRule_help": {
+      "message": "為當前網站快速添加新規則。"
+   },
+   "popup_newTempRule2_help": {
+      "message": "對當前域名臨時應用的代理情景模式。"
+   },
+   "popup_newTempRule_help": {
+      "message": "為當前域名添加一條臨時規則。"
+   },
+   "popup_options": {
+      "message": "選項"
+   },
+   "popup_or": {
+      "message": "or"
+   },
+   "popup_supportAndBugReports": {
+      "message": "技術支持 &amp; Bug反饋"
+   },
+   "popup_switchyPlusWebPage": {
+      "message": "SwitchyPlus 主頁"
+   },
+   "popup_switchyWebPage": {
+      "message": "Google訪問助手 已成功激活"
+},
+   "popup_version": {
+      "message": "版本"
+   },
+   "proxy_autoSwitch": {
+      "message": "自動切換"
+   },
+   "proxy_autoSwitchIconTitle": {
+      "message": "自動切換模式\n本頁情景模式: $1"
+   },
+   "proxy_directConnection": {
+      "message": "關閉翻墻"
+   },
+   "proxy_directConnection_help": {
+      "message": "禁用Proxy"
+   },
+   "proxy_systemProxy": {
+      "message": "使用系統Proxy設置"
+   },
+   "proxy_systemProxy_help": {
+      "message": "使用Proxy代理設置 (需要重啟)"
+   }
+}

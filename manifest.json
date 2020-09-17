@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "lib/sea.js", "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "zh_CN"
+   },  
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "straightGoogle.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "zh_CN",
+   "description": "最簡單易用的Google訪問助手,為Chrome用户量身打造。繁體中文全翻譯，極大方便繁體使用者。可解决Chrome在中國大陸擴充功能無法自動更新的問題，同時可以訪問Google服務。繁體中文版由TurboHKG翻譯。",
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "18.0.0",
+   "name": "Google訪問助手繁體中文破解版",
+   "options_page": "options.html",
+   "permissions": [ "proxy", "tabs", "contextMenus", "webRequest", "webRequestBlocking", "webNavigation", "unlimitedStorage", "notifications", "\u003Call_urls>", "http://*/*", "https://*/*", "ftp://*/*" ],
+   "version": "2.3.0",
+   "web_accessible_resources": [ "first.html" ]
+}
