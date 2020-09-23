@@ -2889,7 +2889,7 @@ function(t, e) {
 }),
 seajs.use(["app/u", "lib/t", "app/t", "app/p", "app/b", "app/notifications", "app/mainServer"],
 function(t, e, n, r, o, i, a) {
-    o.off("...", "正在連線主服務器,請稍候"),
+    o.off("...", "正在連線主伺服器,請稍候"),
     a.get(function() {
         n.D(),
         n.R(function() {
